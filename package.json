@@ -13,5 +13,18 @@
     "serve-favicon": "~2.1.3",
     "debug": "~2.0.0",
     "ejs": "~0.8.5"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolegueSpain/PQuiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bolegueSpain/PQuiz/issues"
+  },
+  "homepage": "https://github.com/bolegueSpain/PQuiz#readme"
 }
