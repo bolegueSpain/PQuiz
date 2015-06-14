@@ -1,11 +1,19 @@
-var express = require('express'); //esto es una prueba
+<<<<<<< HEAD
+var express = require('express'); //esto es una pruebawqss
+=======
+var express = require('express');
+>>>>>>> d0556cf4f15e36d623b986acabd70985e4fffbfc
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+<<<<<<< HEAD
 var routes = require('./routes/index');
+=======
+var routes = require('./routes/index'); 
+>>>>>>> d0556cf4f15e36d623b986acabd70985e4fffbfc
 
 
 var app = express();

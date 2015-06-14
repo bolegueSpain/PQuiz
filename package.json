@@ -13,6 +13,7 @@
     "serve-favicon": "~2.1.3",
     "debug": "~2.0.0",
     "ejs": "~0.8.5"
+<<<<<<< HEAD
   },
   "description": "",
   "main": "app.js",
@@ -28,3 +29,7 @@
   },
   "homepage": "https://github.com/bolegueSpain/PQuiz#readme"
 }
+=======
+  }
+}
+>>>>>>> d0556cf4f15e36d623b986acabd70985e4fffbfc
