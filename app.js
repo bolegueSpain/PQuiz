@@ -1,11 +1,11 @@
-var express = require('express');
+var express = require('express'); //esto es una prueba
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index'); 
+var routes = require('./routes/index');
 
 
 var app = express();
