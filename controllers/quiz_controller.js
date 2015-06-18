@@ -3,6 +3,12 @@ exports.question = function(req, res){
       res.render('quizes/question', {pregunta: 'Capital de Italia'});
 };
 
+
+
+exports.author = function(req, res){
+      res.render('quizes/author', {});
+};
+
 // GET /quizes/question
 exports.answer = function(req, res) {
 if(req.query.respuesta === 'Roma'){
