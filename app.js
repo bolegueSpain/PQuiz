@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var partials = require('express-partials');
 
-var routes = require('./routes/index');
+var routes = require('./routes/index'); //esto es una prueba2223
 
 
 var app = express();
