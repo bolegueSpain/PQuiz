@@ -7,14 +7,14 @@ var bodyParser = require('body-parser');
 
 var partials = require('express-partials');
 
-var routes = require('./routes/index');
+var routes = require('./routes/index'); //esto es una prueba
 
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); 
 
 app.use(partials());
 
