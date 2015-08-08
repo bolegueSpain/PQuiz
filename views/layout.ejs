@@ -17,6 +17,13 @@
 <body>
 <div id="page-wrap">
 	<header class="main" id="h1">
+
+		<%if(!session.user){%>
+			<spam class="right"><a href="/login"> Login</a></spam>
+			<%} else {%>
+			<spam class="right"> <%=session.user.username%> <a href="/logout"> Logout</a></spam>
+		<%}%>
+
 		<h2>Quiz<span>: el juego de las preguntas</span></h2>
 	</header>
 
@@ -41,7 +48,7 @@
 
 		<footer class="main" id="f1">
 			<a href="http://es.wikipedia.org/wiki/Quiz"><br>¿Qué es un Quiz?</a>
-			<a href="https://github.com/bolegueSpain/PQuiz"><br>Repositorio de esta aplicación en GitHub</a>
+			<a href="https://github.com/dogotom/quiz"><br>Repositorio de esta aplicación en GitHub</a>
 		</footer>
 	</div>
 </body>
